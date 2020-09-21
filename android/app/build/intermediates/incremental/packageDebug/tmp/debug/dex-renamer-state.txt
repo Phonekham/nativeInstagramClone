@@ -1,0 +1,4 @@
+#Mon Sep 21 10:15:20 ICT 2020
+base.0=D\:\\Resources\\React Native\\Clone Project\\nativeInstagramClone\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
