@@ -2,15 +2,15 @@ import React from 'react';
 import {View, Text} from 'react-native';
 
 import styles from './styles';
-import ProfilePicture from '../ProfilePicture/Index';
+import ProfilePicture from '../../../ProfilePicture/Index';
 
-const Index = ({imageUri, name}) => {
+const Header = ({imageUri, name}) => {
   return (
     <View style={styles.container}>
-      <ProfilePicture uri={imageUri}></ProfilePicture>
+      <ProfilePicture uri={imageUri} size={40}></ProfilePicture>
       <Text style={styles.name}>{name}</Text>
     </View>
   );
 };
 
-export default Index;
+export default Header;
